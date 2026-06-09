@@ -1,8 +1,3 @@
-Com base em toda a nossa jornada, nos gráficos gerados e nos logs detalhados do terminal, aqui está a proposta completa para o seu **Relatório Final**.
-
-Ele foi estruturado em formato acadêmico/técnico, detalhando cada engrenagem do seu código e traduzindo os comportamentos observados em conclusões sólidas. Você pode copiar, adaptar e utilizar este texto diretamente no seu trabalho.
-
----
 
 # Relatório Técnico: Resolução do 8-Puzzle utilizando Algoritmos Genéticos
 
@@ -69,6 +64,7 @@ Os testes foram realizados em diferentes cenários de complexidade utilizando a 
 **Dificuldade Difícil** (Entropia moderada): O tabuleiro exigia de 6 a 8 movimentos, apresentando peças desalinhadas verticalmente (como o 4 e o 7). O algoritmo tendeu ao comportamento Random Walk, gerando sequências brutas longas na Geração 0 que precisaram obrigatoriamente do filtro de redundâncias para serem limpas.
 
 **Dificuldade Extrema** (Alta entropia inicial): O tabuleiro exigia no mínimo 15 movimentos perfeitamente coordenados, com quase nenhuma peça perto do estado meta. Foi o único cenário complexo o suficiente para desafiar a sorte inicial, forçando a evolução real (cruzamento e mutação) por 18 a 25 gerações para quebrar os platôs de mínimos locais.
+
 ---
 
 ## 5. Análise de Resultados
